@@ -12,13 +12,13 @@ li   {
 	width: 49px;
 	writing-mode: vertical-lr;
 }
-a   {
+nav a   {
 	color: #030303;
 	text-decoration: none;
 	font-size: 34px;
-	display: inline-block;
-	text-align: center;
+	text-align: left;
 	writing-mode: vertical-lr;
+	display: inline-block;
 	border-style: solid;
 	border-width: thin;
 }
@@ -77,10 +77,13 @@ header {
 .tribe   {
 	border-style: solid;
 	font-size: 32px;
-	width: 203px;
-	padding-left: 5px;
-	padding-right: 5px;
+	width: 220px;
+	padding-left: 6px;
+	padding-right: 6px;
 	background-color: #B8E2F9;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	text-align: center;
 }
 .home {
 	display: flex;
@@ -88,9 +91,7 @@ header {
 	width: 840px;
 	padding-top: 0px;
 }
-.2 {
-	display: flex;
-}
+
 .culture  {
 	border-style: solid;
 	text-align: center;
@@ -131,9 +132,7 @@ main {
 	align-items: center;
 	justify-content: center;
 }
-.12 {
-	border-style: solid;
-}
+
 .malaho p {
 	writing-mode: vertical-rl;
 	height: 250px;
@@ -149,18 +148,18 @@ main {
 	text-align: justify;
 }
 #a01 {
-	border-style: solid;
-	border-width: thin;
 	writing-mode: vertical-lr;
 	text-align: center;
-	display: table;
+	display: inline;
 	height: 125px;
 	font-size: xx-large;
+	border-style: solid;
+	border-width: thin;
 }
 .竹 {
 	background-image: url(img/%E7%AB%B9%E5%B1%8B.jpg);
 	background-position: 26%
-%;
+0%;
 	background-position: 0% 0%;
 	background-clip: padding-box;
 	background-size: cover;
@@ -175,6 +174,7 @@ main {
 	padding-bottom: 50px;
 	padding-left: auto;
 	padding-right: auto;
+	margin-bottom: 100px;
 }
 .left {
 	flex: 1;
@@ -267,9 +267,8 @@ main {
 	width: 500px;
 	height: 500px;
 	background-position: 0%
-%;
-	background-position: 50% 0
-$;
+0%;
+	background-position: 50% 0%;
 	background-size: cover;
 	background-position: 50% 0%;
 }
@@ -291,6 +290,7 @@ $;
 	display: flex;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	margin-top: 50px;
 }
 .photo .box2 .p1 {
 	flex: 1;
@@ -299,14 +299,40 @@ $;
 	background-position: 14% 0%;
 	width: 500px;
 	height: 500px;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
 	border-style: solid;
 	border-color: #000000;
 }
 .photo .box2 .p2 {
+	flex: 1;
+	background-size: cover;
+	background-image: url(img/IMG_2345.JPG);
+	width: 500px;
+	height: 500px;
+	margin-left: 20px;
+	margin-right: 20px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	margin-top: 20px;
+	border-style: solid;
+	border-color: #000000;
+}
+.photo #a03 {
+	border-style: none solid solid none;
+	color: #000000;
+	background-color: #F7F899;
+	width: 100px;
+	text-align: center;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	font-size: 30px;
+}
+.photo .box2 .p2:hover {
 	flex: 1;
 	background-size: cover;
 	background-image: url(img/IMG_2345.JPG);
@@ -321,12 +347,13 @@ $;
 	margin-bottom: 10px;
 	border-style: solid;
 	border-color: #000000;
+	transform: scale(1.1,1.1);
 }
 .photo #a03 {
 	border-style: none solid solid none;
 	color: #000000;
 	background-color: #F7F899;
-	width: 110px;
+	width: 100px;
 	text-align: center;
 	padding-top: 5px;
 	padding-right: 5px;
@@ -374,25 +401,40 @@ $;
 	border-top-style: none;
 	border-right-color: #000000;
 	border-right-width: thin;
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 4px;
 }
 .work {
 	margin-top: 10px;
 }
 .box .box2 .p3 {
 	background-image: url(img/IMG_1139.jpg);
-	background-size: cover;
-	background-position: 79% 0%;
 	flex: 1;
 	width: 500px;
 	height: 500px;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	border-style: solid;
+	border-color: #000000;
+	background-position: 65% 0%;
+	background-size: cover;
+}
+.box .box2 .p4 {
+	flex: 1;
+	background-image: url(img/29806465-A741-4829-80A0-63A8287C4792.JPG);
+	width: 500px;
+	height: 500px;
+	background-size: cover;
+	background-position: 76% top;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
 	border-style: solid;
 	border-color: #000000;
 }
-.box .box2 .p4 {
+.box .box2 .p4:hover {
 	flex: 1;
 	background-image: url(img/29806465-A741-4829-80A0-63A8287C4792.JPG);
 	width: 500px;
@@ -405,7 +447,9 @@ $;
 	margin-bottom: 10px;
 	border-style: solid;
 	border-color: #000000;
+	transform: scale(1.1,1.1);
 }
+
 .box2 .p2 .team2 {
 	background-color: #F7F899;
 	width: 25px;
@@ -417,19 +461,20 @@ $;
 	padding-right: 2px;
 	padding-bottom: 2px;
 }
-.9 {
-	margin-left: auto;
-	margin-right: auto;
-}
+
+
 .container5  {
 	background-image: url(img/IMG_2396.jpg);
-	background-size: cover;
 	height: 600px;
 	border: thin solid #000000;
 	padding-left: 60px;
 	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 100px;
+	background-size: cover;
+	position: static;
+	background-position: 0% 80%;
 }
 .river {
 	padding-left: 30px;
@@ -440,12 +485,18 @@ $;
 	text-align: justify;
 	line-height: 30px;
 	border: thin solid #000000;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 	width: 800px;
 }
 .foot {
 	text-align: center;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-right: 20px;
+	margin-left: 20px;
 }
 .title {
 	font-size: 33px;
@@ -455,4 +506,63 @@ $;
 	margin-left: -60px;
 	border-right: thin solid #000000;
 	border-bottom: thin solid #000000;
+}
+.fb a {
+	display: inherit;
+	text-decoration: none;
+	color: #000000;
+}
+.box .box2 .p3:hover {
+	background-image: url(img/IMG_1139.jpg);
+	flex: 1;
+	width: 500px;
+	height: 500px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-style: solid;
+	border-color: #000000;
+	background-position: 65% 0%;
+	background-size: cover;
+	
+	transform: scale(1.1,1.1);
+  
+}
+.photo .box2 .p1:hover {
+	flex: 1;
+	background-image: url(img/IMG_2324.JPG);
+	background-size: cover;
+	background-position: 14% 0%;
+	width: 500px;
+	height: 500px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-style: solid;
+	border-color: #000000;
+	transform: scale(1.1,1.1);
+}
+body {
+	font-family: 'Noto Serif TC', serif;
+	font-weight: 500;
+}
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.fa.fa-facebook-square {
+}
+.fb {
+	font-size: 30px;
+	text-align: left;
+	display: inherit;
+	margin-bottom: 16px;
+}
+.fb:hover {
+	text-decoration: none;
+	color: #1B77F2;
 }
