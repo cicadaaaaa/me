@@ -4,12 +4,13 @@ nav {
 	justify-content: flex-end;
 	margin-top: -24px;
 	margin-right: -8px;
+	border-style: none;
 }
 li   {
 	list-style-type: none;
 	text-decoration: none;
 	display: block;
-	width: 49px;
+	width: 50px;
 	writing-mode: vertical-lr;
 }
 nav a   {
@@ -51,7 +52,7 @@ h1   {
 	padding-bottom: 5px;
 }
 #c:hover {
-	background-color: #F3F470;
+	background-color: #F7CE74;
 	color: #000000;
 }
 #d {
@@ -80,10 +81,11 @@ header {
 	width: 220px;
 	padding-left: 6px;
 	padding-right: 6px;
-	background-color: #B8E2F9;
 	padding-top: 6px;
 	padding-bottom: 6px;
 	text-align: center;
+	border-width: thin;
+	margin-right: 0px;
 }
 .home {
 	display: flex;
@@ -95,30 +97,17 @@ header {
 .culture  {
 	border-style: solid;
 	text-align: center;
-	writing-mode: vertical-lr;
 	font-size: 33px;
 	height: 285px;
 	font-weight: normal;
 	padding-right: 2px;
-	background-color: #8CBC95;
-}
-.culture1 {
-	height: 271px;
-	border-style: solid;
-	border-color: #000000;
-	writing-mode: vertical-lr;
-	font-size: 33px;
-	margin-top: 15px;
-	padding-top: 8px;
-	padding-bottom: 0px;
-	background-color: #F9FA97;
-	margin-right: 0px;
-	padding-right: 3px;
+	border-width: thin;
+	writing-mode: vertical-rl;
 }
 main {
 	flex-direction: column;
 	display: flex;
-	margin-top: 50px;
+	margin-top: 60px;
 	justify-content: center;
 	align-items: center;
 }
@@ -172,9 +161,6 @@ main {
 .box1 {
 	display: flex;
 	padding-bottom: 50px;
-	padding-left: auto;
-	padding-right: auto;
-	margin-bottom: 100px;
 }
 .left {
 	flex: 1;
@@ -187,34 +173,34 @@ main {
 	margin-left: 20px;
 	margin-right: 20px;
 }
-.work .box1 .left2 {
-	flex: 1.2;
-}
 .box1 .left .高粱 {
 	border-style: none solid solid;
-	background-color: #AFDDB9;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-left: 10px;
 	padding-right: 10px;
 	font-size: large;
-	width: 105px;
+	width: 110px;
+	border-width: thin;
+	background-color: #AFDDB9;
 }
 .box1 .wb .draw {
-	border-style: none solid solid;
 	padding-top: 5px;
 	padding-right: 10px;
 	padding-bottom: 5px;
 	padding-left: 10px;
 	background-color: #AFDDB9;
-	width: 118px;
+	width: 110px;
 	flex: 1;
 	font-size: large;
-	font-weight: bold;
+	border-style: none solid solid;
+	border-left-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
 }
 .work .box1 .left3 {
-	width: 500px;
-	height: 500px;
+	width: 550px;
+	height: 550px;
 	background-image: url(img/IMG_2319.JPG);
 	background-size: cover;
 	background-position: 60% 0%;
@@ -222,15 +208,14 @@ main {
 .right {
 	flex: 1.2;
 	background-image: url(img/IMG_1124.jpg);
-	height: 500px;
+	height: 550px;
 	background-size: cover;
 	background-position: center center;
-	width: 500px;
+	width: 550px;
 }
 .work #a02 {
-	background-color: #7FBA8B;
+	background-color: #AFDDB9;
 	color: #000000;
-	font-size: 30px;
 	border-style: solid;
 	text-align: center;
 	width: 140px;
@@ -238,6 +223,8 @@ main {
 	padding-right: 5px;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	border-width: thin;
+	font-size: xx-large;
 }
 .word {
 	border-style: solid;
@@ -248,6 +235,8 @@ main {
 	padding-top: 15px;
 	padding-right: 15px;
 	padding-bottom: 15px;
+	border-width: thin;
+	background-color: #E7EBFA;
 }
 .b1 {
 	padding-bottom: 30px;
@@ -261,11 +250,13 @@ main {
 	padding-left: 15px;
 	font-size: 22px;
 	text-align: justify;
+	border-width: thin;
+	background-color: #E7EBFA;
 }
 .work .box1 .left2 {
 	background-image: url(img/%E9%95%B7%E8%80%85%E9%97%9C%E6%87%B7.jpg);
-	width: 500px;
-	height: 500px;
+	width: 550px;
+	height: 550px;
 	background-position: 0%
 0%;
 	background-position: 50% 0%;
@@ -274,36 +265,29 @@ main {
 }
 .work .box1 .right2 {
 	background-image: url(img/IMG_1316.jpg);
-	width: 500px;
-	height: 500px;
+	width: 550px;
+	height: 550px;
 	background-size: cover;
 	background-position: 60% 0%;
 }
 .photo {
 	margin-left: auto;
 	margin-right: auto;
-	display: block;
-	margin-top: 10px;
+	margin-top: 50px;
 	margin-bottom: 10px;
+	padding-left: auto;
+	padding-right: auto;
+	border-style: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .photo .box2 {
 	display: flex;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	margin-top: 50px;
-}
-.photo .box2 .p1 {
-	flex: 1;
-	background-image: url(img/IMG_2324.JPG);
-	background-size: cover;
-	background-position: 14% 0%;
-	width: 500px;
-	height: 500px;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-top: 20px;
-	border-style: solid;
-	border-color: #000000;
 }
 .photo .box2 .p2 {
 	flex: 1;
@@ -317,20 +301,7 @@ main {
 	justify-content: flex-end;
 	align-items: flex-end;
 	margin-top: 20px;
-	border-style: solid;
-	border-color: #000000;
-}
-.photo #a03 {
-	border-style: none solid solid none;
-	color: #000000;
-	background-color: #F7F899;
-	width: 100px;
-	text-align: center;
-	padding-top: 5px;
-	padding-right: 5px;
-	padding-bottom: 5px;
-	padding-left: 5px;
-	font-size: 30px;
+	border: thin solid #000000;
 }
 .photo .box2 .p2:hover {
 	flex: 1;
@@ -345,32 +316,31 @@ main {
 	align-items: flex-end;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	border-style: solid;
-	border-color: #000000;
+	border: thin solid #000000;
 	transform: scale(1.1,1.1);
 }
 .photo #a03 {
 	border-style: none solid solid none;
-	color: #000000;
-	background-color: #F7F899;
-	width: 100px;
+	color: #030303;
+	background-color: #F7CE74;
 	text-align: center;
-	padding-top: 5px;
 	padding-right: 5px;
-	padding-bottom: 5px;
 	padding-left: 5px;
-	font-size: 30px;
 	margin-top: 0px;
+	border-bottom-width: thin;
+	border-right-width: thin;
+	font-size: 30px;
+	width: 94px;
 }
 .team   {
 	color: #000000;
 	font-size: large;
 	border-left: medium none #000000;
-	border-right: medium solid #000000;
+	border-right: thin solid #000000;
 	border-bottom: medium solid #000000;
-	border-top: medium none #000000;
-	width: 21px;
-	background-color: #F7F899;
+	border-top: thin none #000000;
+	width: 20px;
+	background-color: #F7CE74;
 	text-align: center;
 	padding-top: 3px;
 	padding-right: 3px;
@@ -379,49 +349,44 @@ main {
 }
 .new {
 	display: flex;
-	flex-direction: row-reverse;
-	width: 110px;
+	width: 93px;
 	position: fixed;
-	margin-top: -1px;
+	margin-top: 17px;
 	margin-left: -8px;
 }
 .girl {
-	background-image: url(img/IMG_2343.JPG);
-	width: 600px;
-	height: 700px;
+	background-image: url(img/IMG_2289.JPG);
+	width: 700px;
+	height: 750px;
 	background-size: cover;
 	background-position: 0% 85%;
 	margin-top: -20px;
 }
 .new .culture1 {
 	background-color: #FBB1B3;
-	border-left-style: none;
-	border-right-style: solid;
-	border-bottom: thin solid #000000;
-	border-top-style: none;
 	border-right-color: #000000;
-	border-right-width: thin;
-	text-align: left;
-	padding-top: 5px;
-	padding-bottom: 4px;
+	border-bottom-color: #000000;
+	height: 486px;
+	text-align: center;
 }
 .work {
 	margin-top: 10px;
 }
-.box .box2 .p3 {
+.p3   {
 	background-image: url(img/IMG_1139.jpg);
-	flex: 1;
-	width: 500px;
-	height: 500px;
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-top: 20px;
-	border-style: solid;
-	border-color: #000000;
 	background-position: 65% 0%;
 	background-size: cover;
+	border-style: solid;
+	border-width: thin;
+	width: 800px;
+	height: 600px;
+	padding-left: auto;
+	padding-right: auto;
 }
-.box .box2 .p4 {
+.p4   {
 	flex: 1;
 	background-image: url(img/29806465-A741-4829-80A0-63A8287C4792.JPG);
 	width: 500px;
@@ -431,10 +396,9 @@ main {
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-top: 20px;
-	border-style: solid;
-	border-color: #000000;
+	border: thin solid #000000;
 }
-.box .box2 .p4:hover {
+.box2 .p4:hover {
 	flex: 1;
 	background-image: url(img/29806465-A741-4829-80A0-63A8287C4792.JPG);
 	width: 500px;
@@ -445,17 +409,16 @@ main {
 	margin-right: 10px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	border-style: solid;
-	border-color: #000000;
+	border: thin solid #000000;
 	transform: scale(1.1,1.1);
 }
 
 .box2 .p2 .team2 {
-	background-color: #F7F899;
+	background-color: #F7CE74;
 	width: 25px;
 	text-align: center;
-	border-top: medium solid #000000;
-	border-left: medium solid #000000;
+	border-top: thin solid #000000;
+	border-left: thin solid #000000;
 	padding-left: 2px;
 	padding-top: 2px;
 	padding-right: 2px;
@@ -465,29 +428,54 @@ main {
 
 .container5  {
 	background-image: url(img/IMG_2396.jpg);
-	height: 600px;
 	border: thin solid #000000;
 	padding-left: 60px;
-	width: 800px;
-	margin-left: auto;
 	margin-right: auto;
 	margin-top: 100px;
 	background-size: cover;
 	position: static;
 	background-position: 0% 80%;
+	margin-left: auto;
+	display: inherit;
+	width: 800px;
+	height: 600px;
+}
+.ci {
+	background-color: #FBDC95;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: 900;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 30%60%60%50%/80%40%70%40%;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	font-size: x-large;
+	font-style: normal;
+	-webkit-text-stroke: 0.2px #000;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
 .river {
 	padding-left: 30px;
 	padding-right: 30px;
-	padding-top: 15px;
-	padding-bottom: 15px;
 	font-weight: lighter;
 	text-align: justify;
 	line-height: 30px;
 	border: thin solid #000000;
 	margin-top: 100px;
 	margin-bottom: 100px;
+	background-color: #F8E9D4;
+	margin-left: auto;
+	margin-right: auto;
+	height: 500px;
 	width: 800px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 .foot {
 	text-align: center;
@@ -512,41 +500,18 @@ main {
 	text-decoration: none;
 	color: #000000;
 }
-.box .box2 .p3:hover {
+.p3:hover {
 	background-image: url(img/IMG_1139.jpg);
-	flex: 1;
-	width: 500px;
-	height: 500px;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	border-style: solid;
-	border-color: #000000;
+	width: 800px;
+	height: 600px;
+	border: thin solid #000000;
 	background-position: 65% 0%;
 	background-size: cover;
-	
-	transform: scale(1.1,1.1);
-  
-}
-.photo .box2 .p1:hover {
-	flex: 1;
-	background-image: url(img/IMG_2324.JPG);
-	background-size: cover;
-	background-position: 14% 0%;
-	width: 500px;
-	height: 500px;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	border-style: solid;
-	border-color: #000000;
 	transform: scale(1.1,1.1);
 }
 body {
 	font-family: 'Noto Serif TC', serif;
-	font-weight: 500;
+	font-weight: 400;
 }
 footer {
 	display: flex;
@@ -565,4 +530,49 @@ footer {
 .fb:hover {
 	text-decoration: none;
 	color: #1B77F2;
+}
+.date   {
+	text-align: center;
+	border: thin solid #000000;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	font-size: x-large;
+}
+.box1 .left  {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.e   {
+	background-image: url(img/IMG_2343.JPG);
+	width: 100px;
+	border-radius: 80%40%70%40%/40%60%60%50%;
+	height: 100px;
+	background-size: cover;
+	background-position: center bottom;
+	display: flex;
+	margin-top: -27px;
+}
+.y {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+.go {
+	display: flex;
+	background-attachment: fixed;
+	margin-right: -60px;
+	margin-top: -25px;
+	justify-content: flex-end;
+}
+.new .pro {
+	border-style: solid solid solid none;
+	height: 353px;
+	font-size: x-large;
+	border-width: thin;
+	background-color: #FBFCBC;
+	padding-right: 8px;
+	padding-left: 8px;
 }
